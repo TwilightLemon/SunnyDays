@@ -1,4 +1,4 @@
-#include "LyricController.h"
+#include "../../include/LyricController.h"
 #include <queue>
 
 namespace SunnyDays {

@@ -1,4 +1,4 @@
-#include "MIDIHelper.h"
+#include "../../include/MIDIHelper.h"
 
 void initDevice(){
     midiOutOpen(&hMidiOut, 0, 0, 0, CALLBACK_NULL);

@@ -1,5 +1,5 @@
-#ifndef SUNNYDAYS_MAINLINE_H
-#define SUNNYDAYS_MAINLINE_H
+#ifndef SUNNYDAYS_ACCOMPANY_H
+#define SUNNYDAYS_ACCOMPANY_H
 
 namespace SunnyDays {
     extern int channelMainLine;

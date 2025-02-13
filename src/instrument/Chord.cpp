@@ -1,7 +1,7 @@
-#include "Chord.h"
+#include "../../include/Chord.h"
 #include <iostream>
-#include "MIDIHelper.h"
-#include "LyricController.h"
+#include "../../include/MIDIHelper.h"
+#include "../../include/LyricController.h"
 using namespace std;
 
 namespace SunnyDays {

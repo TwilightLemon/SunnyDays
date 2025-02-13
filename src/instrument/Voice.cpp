@@ -1,6 +1,6 @@
-#include "Voice.h"
-#include "MIDIHelper.h"
-#include "LyricController.h"
+#include "../../include/Voice.h"
+#include "../../include/MIDIHelper.h"
+#include "../../include/LyricController.h"
 
 using namespace std;
 
@@ -12,7 +12,7 @@ namespace SunnyDays {
     void voice(){
         Sleep(13100);
         int sleep = 390;
-        int wind[] =
+        int data[] =
                 {
                         //故事的小黄花
                         -90,
@@ -157,7 +157,7 @@ namespace SunnyDays {
                         300,H1,H1,M5,M5,M6,M5,M4,L6,L7,M1,M2,M3,M2,_,_,
                         300,M3,_,M1,_,_,_,
                 };
-        for (auto i : wind) {
+        for (auto i : data) {
             if(i==-30){logTime("Enter chorus");continue;}
             if(i==-90){NextLyric(); continue;}
             if (i == 0) { sleep = 180; continue; }

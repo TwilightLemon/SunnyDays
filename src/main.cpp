@@ -1,11 +1,11 @@
 #include <iostream>
 #include <thread>
-#include "MIDIHelper.h"
-#include "Chord.h"
-#include "MainLine.h"
-#include "LyricController.h"
-#include "Voice.h"
-#include "BassDrum.h"
+#include "../include/MIDIHelper.h"
+#include "../include/Chord.h"
+#include "../include/Accompany.h"
+#include "../include/LyricController.h"
+#include "../include/Voice.h"
+#include "../include/BassDrum.h"
 
 using namespace std;
 using namespace SunnyDays;

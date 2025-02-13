@@ -1,6 +1,6 @@
-#include "MainLine.h"
+#include "../../include/Accompany.h"
 #include <iostream>
-#include "MIDIHelper.h"
+#include "../../include/MIDIHelper.h"
 using namespace std;
 
 namespace SunnyDays {
